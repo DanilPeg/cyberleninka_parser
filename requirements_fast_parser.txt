@@ -1,0 +1,33 @@
+# Зависимости для fast_parser.py
+# Парсер статей CyberLeninka с использованием Playwright
+
+# Основные библиотеки
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Playwright для эмуляции браузера
+playwright>=1.41.0
+
+# Дополнительные утилиты
+pathlib2>=2.3.7; python_version < "3.4"
+
+# Для работы с аргументами командной строки (встроен в Python 3.2+)
+# argparse
+
+# Для работы с URL (встроен в Python 3.0+)
+# urllib.parse
+
+# Для работы с файловой системой (встроен в Python 3.4+)
+# pathlib
+
+# Для работы с временем (встроен в Python)
+# time
+
+# Для работы с случайными числами (встроен в Python)
+# random
+
+# Для работы с операционной системой (встроен в Python)
+# os
+
+# Примечание: argparse, urllib.parse, pathlib, time, random, os - встроенные модули Python
+# Установка не требуется для Python 3.7+
